@@ -25,7 +25,6 @@ public class Day3_1 {
         int posi = 0;
         int posj = 0;
         while (posi < 323) {
-            System.out.println(posi);
             String s = grid[posi][posj];
             if (s.equals("#")) {
                 cont++;
